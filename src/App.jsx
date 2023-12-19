@@ -20,7 +20,7 @@ function App() {
         </p>
         {/* Button for dark mode */}
         <button
-          className='absolute text-5xl w-16 h-12 bottom-16 right-16 bg-neutral-900 dark:bg-neutral-50 rounded-full text-white dark:text-black'
+          className='absolute text-5xl w-16 h-12 bottom-16 right-16 bg-neutral-500 dark:bg-neutral-50 rounded-full text-white dark:text-black'
           onClick={toggleDarkMode}
         >
           {darkMode ? '🌞' : '🌚'}
