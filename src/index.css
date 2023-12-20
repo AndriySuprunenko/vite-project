@@ -6,3 +6,7 @@
   /* @apply transition-colors duration-200; */
   @apply transition-all duration-200;
 }
+
+body {
+  font-family: 'Lato', sans-serif;
+}
