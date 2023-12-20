@@ -12,7 +12,7 @@ function Header() {
   ];
 
   const listItems = list.map((item, index) => (
-    <li className='text-black dark:text-white pl-[30px]' key={index}>
+    <li className='text-custom-blue-deep dark:text-white pl-[30px] text-sm' key={index}>
       <a
         className='hover:border-b-4 border-solid border-custom-ogange-active dark:border-green-900 p-[5px]'
         href='#'
@@ -32,7 +32,7 @@ function Header() {
           </a>
         </div>
         {/* Navigation */}
-        <nav>
+        <nav className='flex items-center'>
           <ul className='flex'>{listItems}</ul>
         </nav>
       </div>
