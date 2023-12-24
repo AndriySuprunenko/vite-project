@@ -2,13 +2,21 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      'sans': ['Lato'],
+      'serif': ['Playfair Display'],
+    },
     extend: {
       colors: {
         'custom-ogange-active': '#F1897B',
+        'custom-green-line': '#85BBB1',
         'custom-red-dark': '#E54F3A',
         'custom-gray-dark': '#515773',
+        'custom-gray-light': '#E4E4E4',
+        'custom-gray-text': '#262A3F',
         'custom-blue-deep': '#161926',
         'custom-bg-tranparent-l': 'rgba(255, 255,255,0.2)',
+        'custom-bg-tranparent-l-2': 'rgba(255, 255,255,0.9)',
         'custom-green-neon': '#53F3CD',
         'custom-green-neon-dark': '#02E0AB',
         'bg-gray-gradient': 'rgb(244, 248, 247)',
@@ -19,6 +27,7 @@ export default {
         'custom-button-shadow-d-active': 'rgba(2, 224, 171, 0.25)',
         // Text
         'custom-bg-tranparent-d': 'rgba(22, 25, 38, 0.2)',
+        'custom-bg-tranparent-d-2': 'rgba(22, 25, 38, 0.9)',
         'custom-text-green': '#85BBB1',
         'custom-text-blue': '#689FF2',
         'custom-text': '#262A3F',

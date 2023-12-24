@@ -16,7 +16,7 @@ function App() {
       <div className="bg-white dark:bg-custom-blue-deep w-full">
         {/* Container for components */}
         <div
-          className={`max-w-7xl m-auto relative pt-[30px] pb-[120px] ${
+          className={`max-w-[1440px] m-auto relative pt-[30px] pb-[120px] ${
             (darkMode && "bg-dark") || "bg-light"
           }`}
         >
@@ -32,7 +32,7 @@ function App() {
           <Banner />
         </div>
         {/* Other components */}
-        <div className="max-w-7xl m-auto relative py-[30px] bg-white dark:bg-custom-blue-deep">
+        <div className="max-w-[1440px] m-auto relative bg-white dark:bg-custom-blue-deep">
           <Statistic />
         </div>
       </div>

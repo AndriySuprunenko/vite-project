@@ -2,10 +2,10 @@ import Button from "../elements/Button";
 
 function Banner() {
   return (
-    <section className="px-[135px] pt-[150px]">
-      <h1 className="text-custom-blue-deep dark:text-white text-[44px] max-w-[523px]">
+    <section className="px-[135px] pt-[150px] pb-[260px]">
+      <h1 className="text-custom-blue-deep dark:text-white text-[44px] max-w-[523px] font-serif">
         A peer-to-peer stablecoin{" "}
-        <span className="text-custom-text-green dark:text-custom-text-blue italic">
+        <span className="text-custom-text-green dark:text-custom-text-blue font-serif italic">
           clearinghouse
         </span>{" "}
         for the new economy
