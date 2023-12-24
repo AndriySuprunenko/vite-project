@@ -4,13 +4,13 @@ import Button from "../elements/Button";
 function Statistic() {
   return (
     <>
-      <div className="px-[135px] relative -translate-y-[250px] h-[500px]">
+      <div className=" relative -translate-y-[250px] h-[500px]">
         {/* Image block */}
         <div className="max-w-[570px]">
           <img className="w-full" src={foto} alt="City's foto" />
         </div>
         {/* Block with text */}
-        <div className="flex bg-custom-bg-tranparent-l-2 dark:bg-custom-bg-tranparent-d-2 absolute right-[135px] top-5 py-10">
+        <div className="flex bg-custom-bg-tranparent-l-2 dark:bg-custom-bg-tranparent-d-2 absolute right-0 top-5 py-10">
           {/* Info numbers */}
           <div>
             <div className="px-[100px] flex flex-col items-center">

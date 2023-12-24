@@ -32,7 +32,7 @@ function App() {
           <Banner />
         </div>
         {/* Other components */}
-        <div className="max-w-[1440px] m-auto relative bg-white dark:bg-custom-blue-deep">
+        <div className="max-w-[1440px] m-auto relative bg-white dark:bg-custom-blue-deep px-[135px]">
           <Statistic />
         </div>
       </div>
