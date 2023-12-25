@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Statistic from "./components/Statistic";
+import Benefits from "./components/Benefits";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -34,6 +35,7 @@ function App() {
         {/* Other components */}
         <div className="max-w-[1440px] m-auto relative bg-white dark:bg-custom-blue-deep px-[135px]">
           <Statistic />
+          <Benefits />
         </div>
       </div>
     </div>

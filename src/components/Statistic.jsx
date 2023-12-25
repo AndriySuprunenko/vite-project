@@ -1,7 +1,7 @@
 import foto from "../assets/images/statisticImage.png";
 import Button from "../elements/Button";
 
-function Statistic() {
+const Statistic = () => {
   return (
     <>
       <div className=" relative -translate-y-[250px] h-[500px]">
@@ -25,7 +25,7 @@ function Statistic() {
               <span className="text-[18px] font-light text-custom-gray-text dark:text-white">
                 Market cap potential
               </span>
-              <hr className="border-[1px] border-solid w-[100px] border-custom-green-line my-[40px]" />
+              <hr className="border-[1px] border-solid w-[100px] border-custom-text-green dark:border-custom-text-blue my-[40px]" />
             </div>
 
             <div className="px-[100px] flex flex-col items-center">
@@ -40,7 +40,7 @@ function Statistic() {
               <span className="text-[18px] font-light text-custom-gray-text dark:text-white">
                 Deposited to platform
               </span>
-              <hr className="border-[1px] border-solid w-[100px] border-custom-green-line my-[40px]" />
+              <hr className="border-[1px] border-solid w-[100px] border-custom-green-line dark:border-custom-text-blue my-[40px]" />
             </div>
 
             <div className="px-[100px] flex flex-col items-center">
@@ -76,6 +76,6 @@ function Statistic() {
       </div>
     </>
   );
-}
+};
 
 export default Statistic;
