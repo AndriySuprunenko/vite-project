@@ -1,4 +1,4 @@
-function ButtonBig({ text = "default" }) {
+const ButtonBig = ({ text = "default" }) => {
   return (
     <button
       type="button"

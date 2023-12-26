@@ -1,6 +1,6 @@
 import Button from "../elements/Button";
 
-function Banner() {
+const Banner = () => {
   return (
     <section className="px-[135px] pt-[150px] pb-[260px]">
       <h1 className="text-custom-blue-deep dark:text-white text-[44px] max-w-[523px] font-serif">

@@ -1,6 +1,6 @@
 import logo from "../assets/images/logo/logo.png";
 
-function Header() {
+const Header = () => {
   const list = [
     "Home",
     "Aboute",

@@ -1,4 +1,4 @@
-function Button({ text = "default" }) {
+const Button = ({ text = "default" }) => {
   return (
     <button
       type="button"

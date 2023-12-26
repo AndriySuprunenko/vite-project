@@ -5,7 +5,7 @@ import Banner from "./components/Banner";
 import Statistic from "./components/Statistic";
 import Benefits from "./components/Benefits";
 
-function App() {
+const App = () => {
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -40,6 +40,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
