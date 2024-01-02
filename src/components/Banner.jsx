@@ -17,6 +17,6 @@ const Banner = () => {
       <Button text="JOIN NOW" />
     </section>
   );
-}
+};
 
 export default Banner;
