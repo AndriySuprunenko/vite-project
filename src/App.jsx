@@ -1,9 +1,9 @@
 // Imports
-import { useState } from "react";
-import Header from "./components/Header";
-import Banner from "./components/Banner";
-import Statistic from "./components/Statistic";
-import Benefits from "./components/Benefits";
+import { useState } from 'react';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import Statistic from './components/Statistic';
+import Benefits from './components/Benefits';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,28 +12,17 @@ const App = () => {
   };
   return (
     // Main
-    <div className={`${darkMode && "dark"}`}>
-      {/* Wrapper */}
-      <div className="bg-white dark:bg-custom-blue-deep w-full">
-        {/* Container for components */}
+    <div className={`${darkMode && 'dark'}`}>
+      <div className='bg-white dark:bg-custom-blue-deep w-full'>
         <div
-          className={`max-w-[1440px] m-auto relative pt-[30px] pb-[120px] ${
-            (darkMode && "bg-dark") || "bg-light"
+          className={`max-w-[1440px] m-auto relative pt-[30px] lg:pb-[120px] ${
+            (darkMode && 'bg-dark') || 'bg-light'
           }`}
         >
-          {/* Button for dark mode */}
-          <button
-            className="absolute top-[50px] right-10 text-4xl w-10 h-10 bg-white dark:bg-neutral-50 rounded-full text-white dark:text-black z-50"
-            onClick={toggleDarkMode}
-          >
-            {darkMode ? "🌞" : "🌚"}
-          </button>
-          {/* Components */}
-          <Header />
+          <Header handlClick={toggleDarkMode} darkMode={darkMode} />
           <Banner />
         </div>
-        {/* Other components */}
-        <div className="max-w-[1440px] m-auto relative bg-white dark:bg-custom-blue-deep px-[135px]">
+        <div className='max-w-[1440px] m-auto relative bg-white dark:bg-custom-blue-deep px-[135px]'>
           <Statistic />
           <Benefits />
         </div>
